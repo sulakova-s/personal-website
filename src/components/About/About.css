@@ -1,0 +1,58 @@
+/* ===== ABOUT SECTION ===== */
+#about {
+  margin: 20px 0;
+  padding-top: 0;
+}
+
+.about-wrapper {
+  display: flex;
+  gap: 6rem;
+  align-items: center;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-header {
+  margin-bottom: 2rem;
+}
+
+.about-header p {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 0.25rem;
+}
+
+.about-header h2 {
+  text-align: left;
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 0.9;
+}
+
+.about-paragraphs p {
+  text-align: justify;
+  margin-bottom: 1.5rem;
+  max-width: 450px;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.about-paragraphs p:last-child {
+  margin-bottom: 0;
+}
+
+/* ===== PHOTO ===== */
+.about-wrapper img {
+  width: 430px;
+  height: auto;
+  object-fit: cover;
+  border: 1px solid #ddd;
+  padding: 15px;
+  background: white;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.06);
+  transform: rotate(-1.5deg) translateX(5px);
+  transition: all 0.4s ease;
+  flex-shrink: 0;
+}

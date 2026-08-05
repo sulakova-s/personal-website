@@ -1,0 +1,56 @@
+{
+  "nav": {
+    "about": "About",
+    "projects": "Projects",
+    "experience": "Experience",
+    "learning": "Learning",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello! I'm ",
+    "name": "Sentyabrina.",
+    "description": "I create modern web applications, love diving into complexity and turn ideas into working solutions.",
+    "actions": {
+      "projects": "View projects →",
+      "resume": "Download CV ↓"
+    },
+    "comment": {
+      "comment1": "// diving into complexity",
+      "comment2": "// building working solutions"
+    }
+  },
+  "about": {
+    "title": "ABOUT ME",
+    "intro": "I enjoy building projects where an idea gradually turns into a working application. It's the process - understanding the problem, trying different approaches, finding a solution, and seeing the result - that makes development exciting for me.",
+    "experience": "My experience with enterprise systems gave me insight into how real products are built and what challenges developers face in a commercial environment. These days, I learn mostly through my own projects - experimenting, applying new technologies, and solidifying knowledge through practice. I love diving deep into topics, and when I finally grasp a complex idea - explaining it to others in simple terms.",
+    "philosophy": "I believe strong engineers grow not because of talent, but because of curiosity, consistent practice, and a willingness to figure out what seemed too difficult yesterday."
+  },
+  "projects": {
+    "title": "PROJECTS",
+    "featured": {
+      "label": "Featured Project",
+      "title": "Roll for hero",
+      "subtitle": "Web application for generating D&D 5e characters.",
+      "description": "The app helps users quickly get a ready-made character with stats, class, backstory, and inventory. Everything you need to start your adventure."
+    },
+    "other": {
+      "title": "OTHER PROJECTS",
+      "habitTracker": {
+        "title": "Habit Tracker",
+        "description": "A web application for tracking daily habits with weekly overview, three completion states, and local data storage. Allows adding, editing, and deleting habits, tracking progress, and analyzing weekly statistics."
+      },
+      "eyeTracking": {
+        "title": "Eye Tracking",
+        "description": "An interactive card with eye-tracking system for realistic pupil following with adaptive animation and cross-gaze effect. Built based on a Figma design."
+      },
+      "calculator": {
+        "title": "Calculator",
+        "description": "A classic macOS-style calculator with window interface and keyboard support. Supports basic arithmetic operations, percentages, sign change, and sequential calculations."
+      }
+    }
+  },
+  "contact": {
+    "title": "CONTACT",
+    "text": "Get in touch with me any way you prefer"
+  }
+}

@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  /* color-scheme: light dark; */
+}
+
+html {
+  scroll-padding-top: 40px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: light-dark(#fcfcfb, #0d0d0d);
+  color: light-dark(#111827, #dedede);
+
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  line-height: 1.6;
+
+  margin: 0;
+  padding: 0;
+}
+
+header,
+section {
+  padding: 80px 96px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 32px;
+}
