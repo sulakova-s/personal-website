@@ -22,7 +22,7 @@ function Contact() {
               className="contact-item"
             >
               <FaEnvelope />
-              sentyabrinasulakova@gmail.com
+              123@gmail.com
             </a>
             <a
               href={PROFILE_LINKS.github.href}
